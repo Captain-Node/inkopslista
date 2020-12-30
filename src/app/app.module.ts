@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { StartComponent } from './pages/start/start.component';
 import { UpdateComponent } from './pages/update/update.component';
 import {ListComponent} from './pages/list/list.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StartComponent,
     UpdateComponent,
-    ListComponent
+    ListComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
