@@ -1,1 +1,8 @@
 <h2>List</h2>
+<div *ngIf="list">
+    <ul class="list">
+        <li class="list-item" *ngFor="let item of list">
+            <p>{{item.name}}</p>
+        </li>
+    </ul>
+</div>

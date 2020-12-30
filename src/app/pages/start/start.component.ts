@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RoutePaths } from 'src/app/shared/route-paths.enum';
+import { RoutePaths } from 'src/app/shared/enums/route-paths.enum';
 
 @Component({
   selector: 'app-start',
